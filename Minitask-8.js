@@ -32,8 +32,8 @@ let Film = {id: 1, title: "Inception",gambar: "inception.jpg",
 console.log(Film.getTitle());
 console.log(Film.getGambar());
 console.log(Film.getGenre());
-console.log(Film.getCast());
-// Film.setTitle("Interstellar");
-// Film.setGambar("interstellar.jpg");
-// console.log(Film.getTitle());
-// console.log(Film.getGambar());
+Film.getCast();
+Film.setTitle("lolipop");
+Film.setGambar("lala.jpg");
+console.log(Film.getTitle());
+console.log(Film.getGambar());
